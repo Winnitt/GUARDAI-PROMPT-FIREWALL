@@ -1,0 +1,29 @@
+# Environment Variables & API Keys (CRITICAL - DO NOT PUSH)
+.env
+*.env
+
+# Python Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Streamlit Local Configurations
+.streamlit/secrets.toml
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
